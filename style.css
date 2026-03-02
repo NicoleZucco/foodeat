@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --background-color: #F0D2AC;
+
+    --cor-titulo-site: #DF8B4D;
+    --cor-textos: #3E2C14;
+    --cor-numeros: #DE8D4E;
+
+    --cor-fundo-botao-1: #DB8C4A;
+    --cor-texto-botao-1: #ffffff;
+
+    --cor-fundo-botao-2: #CEC1B1;
+    --cor-texto-botao-2: #3E2C14;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 200px;
+}
+
+.cabecalho-titulo {
+    color: var(--cor-titulo-site);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-navegacao-item {
+    color: var(--cor-textos);
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 100px 40px 200px;
+}
+
+.conteudo-principal-escrito-titulo {
+    display: flex;
+    align-content: flex-start;
+    padding: 16px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    line-height: 68px;
+}
+
+.conteudo-principal-escrito-paragrafo {
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.conteudo-principal-botao {
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+}
+
+.conteudo-principal-botao-1 {
+    padding: 16px 30px;
+    margin-right: 16px;
+    background-color: var(--cor-fundo-botao-1);
+    border-radius: 20px;
+    border-style: none;
+}
+
+.letra-botao-1 {
+    color: white;
+    font-size: 20px;
+}
+
+.conteudo-principal-botao-2 {
+    margin-left: 40px;
+    padding: 16px 30px;
+    background-color: var(--cor-fundo-botao-2);
+    border-radius: 20px;
+    border-style: none;
+}
+
+.letra-botao-2 {
+    color: var(--cor-texto-botao-2);
+    font-size: 20px;
+}
+
+.conteudo-principal-imagem {
+    width: 450px;
+    height:450px;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.397));
+}
