@@ -176,13 +176,13 @@ a:hover {
 
 .card-titulo-label {
     margin: 0px;
-    padding: 16px 0px 8px 8px;
+    padding: 16px 16px 8px 16px;
     font-size: 16px;
 }
 
 .card-paragrafo-label {
     margin: 0px;
-    padding: 8px 8px 0px 8px;
+    padding: 8px 16px 0px 16px;
     font-size: 16px;
     color: #4b4844;
 }
