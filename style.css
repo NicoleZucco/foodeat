@@ -128,8 +128,8 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0px 200px 40px 200px;
-    padding-top: 24px 0px -78px 0px;
+    margin: 0px 160px 40px 160px;
+    padding: 0px 0px 0px 0px;
 }
 
 .card-um {
@@ -171,4 +171,14 @@ a:hover {
     filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.253));
 }
 
+.card-titulo-label {
+    margin: 0px;
+    padding: 16px 0px 8px 8px;
+    font-size: 24px;
+}
+
+.card-paragrafo-label {
+    margin: 0px;
+    padding-left: 8px;
+}
 
